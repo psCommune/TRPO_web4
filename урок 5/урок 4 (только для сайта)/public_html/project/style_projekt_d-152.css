@@ -1,0 +1,11 @@
+body {background-color: #FFFACD}
+h1 {text-align:left; color:#0000FF; font-family:Verdana; font-size:20pt}
+h2 {text-align:left; color:#0000FF; font-family:Verdana; font-size:16pt}
+ul {color: #32CD32}
+a:link {color: #32CD32}
+a:visited {color: #DAA520}
+#price_table {color: blue;}
+#title_price {font-size:16pt; font-weight: bold; margin-right: }
+#odd_line {background-color: skyblue;}
+#gray_odd {background-color: lightgray; font-weight: bold;}
+#button_up {color: #32CD32; font-weight: bold;}

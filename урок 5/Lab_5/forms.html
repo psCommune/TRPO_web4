@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Название Web-Страницы</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    Выберите категорию проекта:
+                </td>
+            <td>
+            <form>
+                <select name="kategoria" multiple>
+                    <option value="townhouse" /> Проекты таунхаусов и блокированных домов
+                    <option value="two_family" /> Проекты домов на две семьи
+                    <option value="uzkie" /> Проекты узких домов
+                    <option value="banya" /> Проекты бань
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Выберите материал:
+                </td>
+                <td>
+                    <select name="material" size="5">
+                        <option value="kirpich" /> Проекты кирпичных домов
+                        <option value="gazo_peno" /> Проекты домов из газобетона и пенобетона
+                        <option value="brus_brevno" /> Проекты домов из бруса и бревна
+                        <option value="karkas" /> Проекты каркасных домов
+                    </select>
+                    <br>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+            </form>
+            </td>
+            </tr>
+        </table>
+        <form action="https://randstuff.ru/number">
+            <table border="true">
+                <tr>
+                    <td>
+                       До 18 <td><input type="radio" name="years" value="1"/> </td>
+                    </td>   
+                </tr>
+                <tr>
+                    <td>
+                       18-50 <td><input type="radio" name="years"  value="2"  /> </td>
+                    </td>   
+                </tr>
+                <tr>
+                    <td>
+                       Старше 50 <td><input type="radio" name="years"   value="3" /> </td>
+                    </td>   
+                </tr>
+            </table>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <form action="https://randstuff.ru/number">
+            <table border="true">
+                <tr>
+                    <td>
+                        Проекты таунхаусов и блокированных домов
+                    </td>
+                    <td>
+                        <input type="checkbox" name="kategory" value="1"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Проекты домов на две семьи
+                    </td>
+                    <td>
+                        <input type="checkbox" name="kategory" value="2"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Проекты узких домов
+                    </td>
+                    <td>
+                        <input type="checkbox" name="kategory" value="3"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Проекты бань
+                    </td>
+                    <td>
+                        <input type="checkbox" name="kategory" value="4"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Проекты кирпичных домов
+                    </td>
+                    <td>
+                        <input type="checkbox" name="kategory" value="5"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Проекты домов из газобетона и пенобетона
+                    </td>
+                    <td>
+                        <input type="checkbox" name="kategory" value="6"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Проекты домов из бруса и бревна
+                    </td>
+                    <td>
+                        <input type="checkbox" name="kategory" value="7"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Проекты каркасных домов
+                    </td>
+                    <td>
+                        <input type="checkbox" name="kategory" value="8"/>
+                    </td>
+                </tr>
+            </table>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <form>
+        <table border="true">
+            <tr>
+                <td>
+                    Фамилия, имя, отчество <span style="color: red;">*</span>
+                </td>
+                <td>
+                    <input type="text" name="kategory" value=""/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Телефон<span style="color: red;">*</span>
+                </td>
+                <td>
+                    <input type="text" name="kategory" value=""/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E-mail<span style="color: red;">*</span>
+                </td>
+                <td>
+                    <input type="text" name="kategory" value=""/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Адрес<span style="color: red;">*</span>
+                </td>
+                <td>
+                    <input type="text" name="kategory" value=""/>
+                </td>
+            </tr>
+        </table>
+     </form>
+    </body>
+</html>
